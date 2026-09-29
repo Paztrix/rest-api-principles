@@ -1,0 +1,8 @@
+# Local .NET build outputs are platform-specific and must not overwrite the
+# restore artifacts created inside the Linux Docker build stage.
+**/bin/
+**/obj/
+
+# IDE and source-control metadata are not needed in the image.
+.vs/
+.git/
