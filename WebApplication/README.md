@@ -2,12 +2,6 @@
 
 A .NET 10 translation of the REST API principles course starter. It uses ASP.NET Core Minimal APIs, EF Core, PostgreSQL, Data Annotations, and MSTest/Moq.
 
-The exercise TODOs are deliberately unimplemented:
-
-- `TodoService.cs`: TODOs 1–6
-- `TodoEndpoint.cs`: TODOs A–F
-- `GlobalExceptionHandling.cs`: TODOs G–I
-
 ## Run with Docker
 
 ```bash
